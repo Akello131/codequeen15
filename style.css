@@ -1,0 +1,46 @@
+*{
+    margin: 1cm;
+}
+.container{
+    background-color: beige;
+
+}
+.child{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+#sample{
+    background-color: blanchedalmond;
+}
+.first{
+    border-style: dotted;
+    margin: 10px 25px;
+    padding: 20px;
+}
+/* showing blue container */
+.blue-container{
+    background-color: aqua;
+    border: 3px blue solid;
+    display: flex;
+flex-direction: column;
+align-items: center;
+/* showing what is inside the blue container */
+.flexitems{
+    border: 2px orangered solid;
+    margin: 1cm;
+    height: 1cm;
+    width: 5cm;
+}
+.mine{
+    color: blue;
+}
+/* last container */
+.last-container{
+    border: 1cm gray solid;
+   
+}
+img{
+    width: 30px;
+    border-radius: 50%;
+}
